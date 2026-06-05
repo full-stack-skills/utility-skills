@@ -41,6 +41,23 @@ npx skills add full-statck-skills/utility-skills
 
 Works with [Claude Code](https://code.claude.com), [Codex](https://developers.openai.com/codex), [Cursor](https://cursor.com), [OpenCode](https://opencode.ai), [Gemini CLI](https://geminicli.com), [GitHub Copilot](https://github.com/features/copilot), [Windsurf](https://codeium.com/windsurf), and [70+ others](https://agentskills.io/clients).
 
+### Claude Code Installation
+
+**Option 1: npx skills CLI (Recommended)**
+
+```bash
+npx skills add full-statck-skills/utility-skills
+```
+
+**Option 2: Manual Installation**
+
+```bash
+git clone https://github.com/full-statck-skills/utility-skills.git
+cp -r utility-skills/skills/* .claude/skills/
+```
+
+For more details, see the [Claude Code Skills Guide](https://code.claude.com/docs/en/skills) and [Agent Skills Spec](https://agentskills.io/).
+
 ## 📄 License
 
 Apache 2.0 — see [LICENSE](LICENSE).
