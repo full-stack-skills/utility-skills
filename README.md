@@ -24,10 +24,11 @@ English | [简体中文](./README.zh-CN.md)
 npx skills add full-statck-skills/utility-skills
 ```
 
-## 🎯 Skills (7)
+## 🎯 Skills (8)
 
 | Skill | Description |
 |-------|-------------|
+| `codegraph` | Semantic code intelligence for AI coding agents based on tree-sitter knowledge graph. Query code structure, symbol dependencies, call chains, and change impact. 20+ languages, 100% local. |
 | `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications (naming conve... |
 | `skill-creator` | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... |
 | `skill-installer` | Manages the installation and discovery of AI skills from the PartMe marketplace. |

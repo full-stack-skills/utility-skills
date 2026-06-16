@@ -10,6 +10,7 @@
   "repository": "https://github.com/full-statck-skills/utility-skills",
   "source": "./",
   "skills": [
+    "./skills/codegraph",
     "./skills/skill-awesome",
     "./skills/skill-creator",
     "./skills/skill-installer",

@@ -24,10 +24,11 @@
 npx skills add full-statck-skills/utility-skills
 ```
 
-## 🎯 技能列表 (7)
+## 🎯 技能列表 (8)
 
 | 技能 | 描述 |
 |------|------|
+| `codegraph` | 基于 tree-sitter 知识图谱的语义代码智能工具，为 AI 编码代理提供代码结构查询、符号追踪、变更影响分析、调用链查找能力。20+语言，100%本地。 |
 | `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications (naming conve... |
 | `skill-creator` | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... |
 | `skill-installer` | Manages the installation and discovery of AI skills from the PartMe marketplace. |
