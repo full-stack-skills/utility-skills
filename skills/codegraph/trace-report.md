@@ -1,6 +1,6 @@
 # TRACE Evaluation Report
 
-Target: `/Users/wandl/workspaces/workspace-full-statck-skills/full-stack-skills-repositories/utility-skills/skills/codegraph/`
+Target: `/Users/wandl/workspaces/workspace-full-stack-skills/full-stack-skills-repositories/utility-skills/skills/codegraph/`
 
 ## Overall Assessment
 

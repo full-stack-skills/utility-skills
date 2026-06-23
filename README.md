@@ -4,7 +4,7 @@
 
 **Skill management utilities — create, evaluate, install, and compose Agent Skills**
 
-[![GitHub](https://img.shields.io/badge/github-full--statck--skills%2Futility--skills-green.svg)](https://github.com/full-statck-skills/utility-skills)
+[![GitHub](https://img.shields.io/badge/github-full--stack--skills%2Futility--skills-green.svg)](https://github.com/full-stack-skills/utility-skills)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-purple.svg)](https://agentskills.io)
 
@@ -21,7 +21,7 @@ English | [简体中文](./README.zh-CN.md)
 ## 📦 Install
 
 ```bash
-npx skills add full-statck-skills/utility-skills
+npx skills add full-stack-skills/utility-skills
 ```
 
 ## 🎯 Skills (8)
@@ -47,13 +47,13 @@ Works with [Claude Code](https://code.claude.com), [Codex](https://developers.op
 **Option 1: npx skills CLI (Recommended)**
 
 ```bash
-npx skills add full-statck-skills/utility-skills
+npx skills add full-stack-skills/utility-skills
 ```
 
 **Option 2: Manual Installation**
 
 ```bash
-git clone https://github.com/full-statck-skills/utility-skills.git
+git clone https://github.com/full-stack-skills/utility-skills.git
 cp -r utility-skills/skills/* .claude/skills/
 ```
 
