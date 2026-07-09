@@ -1,7 +1,7 @@
 {
   "name": "agent-skills",
   "version": "1.0.0",
-  "description": "Utility Skills provides the complete toolchain for working with Agent Skills",
+  "description": "Agent Skills provides the complete toolchain for working with Agent Skills",
   "author": {
     "name": "PartMeAI",
     "email": "partmeai@gmail.com"
@@ -10,7 +10,10 @@
   "repository": "https://github.com/full-stack-skills/agent-skills",
   "source": "./",
   "skills": [
+    "./skills/agent-browser",
+    "./skills/code-generator",
     "./skills/codegraph",
+    "./skills/mcp-builder",
     "./skills/skill-awesome",
     "./skills/skill-creator",
     "./skills/skill-installer",

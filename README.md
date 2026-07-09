@@ -24,18 +24,21 @@ English | [简体中文](./README.zh-CN.md)
 npx skills add full-stack-skills/agent-skills
 ```
 
-## 🎯 Skills (8)
+## 🎯 Skills (11)
 
 | Skill | Description |
 |-------|-------------|
+| `agent-browser` | Browser automation CLI for AI agents. Install, commands, selectors, sessions, CDP/streaming. |
+| `code-generator` | Code generation guidance — template-based generation, scaffolding, and automated code creation. |
 | `codegraph` | Semantic code intelligence for AI coding agents based on tree-sitter knowledge graph. Query code structure, symbol dependencies, call chains, and change impact. 20+ languages, 100% local. |
-| `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications (naming conve... |
-| `skill-creator` | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... |
+| `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers. Python FastMCP / TypeScript SDK. |
+| `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications. |
+| `skill-creator` | Guide for creating effective skills. Use when users want to create a new skill or update an existing one. |
 | `skill-installer` | Manages the installation and discovery of AI skills from the PartMe marketplace. |
-| `skill-official-evaluation` | > |
-| `skill-sop-creator` | Guide for creating Standard Operating Procedures and SOPs and composite workflows by combining atomic Agent Skills. U... |
-| `skill-trace-checker` | > |
-| `skill-trace-evaluation` | 对任意 Agent Skill 做 TRACE 五维度评测（T/R/A/C/E），输出 Markdown/HTML 报告与雷达图；当用户要求“TRACE 评测/打分/生成 TRACE 报告/五维度评估”或需要改进建议时使用。 |
+| `skill-official-evaluation` | Official evaluation framework for Agent Skills quality assessment. |
+| `skill-sop-creator` | Guide for creating Standard Operating Procedures and composite workflows by combining atomic Agent Skills. |
+| `skill-trace-checker` | Checker for TRACE evaluation reports and skill quality validation. |
+| `skill-trace-evaluation` | TRACE 五维度评测（T/R/A/C/E），输出 Markdown/HTML 报告与雷达图。 |
 
 
 ## 🤖 Supported Agents

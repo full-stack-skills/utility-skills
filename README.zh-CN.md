@@ -24,18 +24,21 @@
 npx skills add full-stack-skills/agent-skills
 ```
 
-## 🎯 技能列表 (8)
+## 🎯 技能列表 (11)
 
 | 技能 | 描述 |
 |------|------|
+| `agent-browser` | AI 代理的浏览器自动化 CLI。安装、命令、选择器、会话、CDP/流式传输。 |
+| `code-generator` | 代码生成指南 — 基于模板的生成、脚手架和自动化代码创建。 |
 | `codegraph` | 基于 tree-sitter 知识图谱的语义代码智能工具，为 AI 编码代理提供代码结构查询、符号追踪、变更影响分析、调用链查找能力。20+语言，100%本地。 |
-| `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications (naming conve... |
-| `skill-creator` | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... |
-| `skill-installer` | Manages the installation and discovery of AI skills from the PartMe marketplace. |
-| `skill-official-evaluation` | > |
-| `skill-sop-creator` | Guide for creating Standard Operating Procedures and SOPs and composite workflows by combining atomic Agent Skills. U... |
-| `skill-trace-checker` | > |
-| `skill-trace-evaluation` | 对任意 Agent Skill 做 TRACE 五维度评测（T/R/A/C/E），输出 Markdown/HTML 报告与雷达图；当用户要求“TRACE 评测/打分/生成 TRACE 报告/五维度评估”或需要改进建议时使用。 |
+| `mcp-builder` | 创建高质量 MCP（Model Context Protocol）服务器的指南。Python FastMCP / TypeScript SDK。 |
+| `skill-awesome` | 设计 Agent Skills 的权威知识库，包含精炼的 Agent Skills 规范。 |
+| `skill-creator` | 创建有效技能的指南。当用户想要创建新技能或更新现有技能时使用。 |
+| `skill-installer` | 管理 PartMe 市场中 AI 技能的安装和发现。 |
+| `skill-official-evaluation` | Agent Skills 质量评估的官方评估框架。 |
+| `skill-sop-creator` | 通过组合原子 Agent Skills 创建标准操作流程和复合工作流的指南。 |
+| `skill-trace-checker` | TRACE 评估报告和技能质量验证检查器。 |
+| `skill-trace-evaluation` | 对任意 Agent Skill 做 TRACE 五维度评测（T/R/A/C/E），输出 Markdown/HTML 报告与雷达图。 |
 
 
 ## 🤖 支持的智能体
