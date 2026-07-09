@@ -4,7 +4,7 @@
 
 **技能管理工具 — 创建、评测、安装、编排 Agent Skills**
 
-[![GitHub](https://img.shields.io/badge/github-full--stack--skills%2Futility--skills-green.svg)](https://github.com/full-stack-skills/agent-skills)
+[![GitHub](https://img.shields.io/badge/github-full--stack--skills%2Fagent--skills-green.svg)](https://github.com/full-stack-skills/agent-skills)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-兼容-purple.svg)](https://agentskills.io)
 

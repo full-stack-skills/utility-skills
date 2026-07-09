@@ -4,7 +4,7 @@
 
 **Skill management utilities — create, evaluate, install, and compose Agent Skills**
 
-[![GitHub](https://img.shields.io/badge/github-full--stack--skills%2Futility--skills-green.svg)](https://github.com/full-stack-skills/agent-skills)
+[![GitHub](https://img.shields.io/badge/github-full--stack--skills%2Fagent--skills-green.svg)](https://github.com/full-stack-skills/agent-skills)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-purple.svg)](https://agentskills.io)
 
@@ -16,7 +16,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## 📖 Introduction
 
-**Utility Skills** provides the complete toolchain for working with Agent Skills — from creation and evaluation to installation and workflow composition. Part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
+**Agent Skills** provides the complete toolchain for working with Agent Skills — from creation and evaluation to installation and workflow composition. Part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
 
 ## 📦 Install
 
