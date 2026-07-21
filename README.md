@@ -24,12 +24,16 @@ English | [简体中文](./README.zh-CN.md)
 npx skills add full-stack-skills/agent-skills
 ```
 
-## 🎯 Skills (11)
+## 🎯 Skills (15)
 
 | Skill | Description |
 |-------|-------------|
 | `agent-browser` | Browser automation CLI for AI agents. Install, commands, selectors, sessions, CDP/streaming. |
+| `autoresearch` | Bounded autonomous iteration against verifiable goals, with debugging, fixing, security, and regression subflows. |
+| `browser-trace` | Sidecar capture of browser CDP events, screenshots, and DOM snapshots for debugging and auditing automation. |
+| `caveman` | Compresses responses while preserving technical substance, with adjustable brevity levels. |
 | `code-generator` | Code generation guidance — template-based generation, scaffolding, and automated code creation. |
+| `codebase-design` | Design or improve codebases using deep modules, clean seams, and testable interfaces. |
 | `codegraph` | Semantic code intelligence for AI coding agents based on tree-sitter knowledge graph. Query code structure, symbol dependencies, call chains, and change impact. 20+ languages, 100% local. |
 | `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers. Python FastMCP / TypeScript SDK. |
 | `skill-awesome` | The canonical knowledge base for designing Agent Skills. Contains distilled Agent Skills specifications. |
@@ -38,7 +42,7 @@ npx skills add full-stack-skills/agent-skills
 | `skill-official-evaluation` | Official evaluation framework for Agent Skills quality assessment. |
 | `skill-sop-creator` | Guide for creating Standard Operating Procedures and composite workflows by combining atomic Agent Skills. |
 | `skill-trace-checker` | Checker for TRACE evaluation reports and skill quality validation. |
-| `skill-trace-evaluation` | TRACE 五维度评测（T/R/A/C/E），输出 Markdown/HTML 报告与雷达图。 |
+| `skill-trace-evaluation` | Evaluates Agent Skills across the five TRACE dimensions and produces Markdown/HTML reports with radar charts. |
 
 
 ## 🤖 Supported Agents
@@ -64,4 +68,4 @@ For more details, see the [Claude Code Skills Guide](https://code.claude.com/doc
 
 ## 📄 License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Repository-authored content is licensed under Apache 2.0 — see [LICENSE](LICENSE). Bundled third-party components retain their original licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the license files inside individual skill directories.

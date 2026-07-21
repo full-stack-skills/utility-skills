@@ -1,5 +1,7 @@
 # Orchestrator Routing
 
+> **Design status:** This is a non-executable design proposal. The package does not contain the referenced `scripts/orchestrate.sh`; do not invoke these commands or advertise this routing flow as an available capability. For current usage, route free-form goals through `plan.md`, obtain explicit `Metric:` and `Verify:` fields, and then use the Classic loop.
+
 ## Goal Archetypes
 
 | Archetype | Trigger Keywords | Mode | Preset Pipeline |
@@ -75,7 +77,7 @@ Presets are starting pipelines. The router adapts per cycle from observed state 
 
 ## Glossary
 
-Terms used consistently across this file, SKILL.md, and orchestrator-state.json. Definitions live in CONTEXT.md.
+The following terms define this proposed design. They are not current runtime state or supported commands.
 
 | Term | Short meaning |
 |---|---|

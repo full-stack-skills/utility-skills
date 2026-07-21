@@ -1,10 +1,10 @@
 ---
 name: autoresearch:ship
-description: "Ship anything through 8 phases: checklist, dry-run, deploy, verify"
-argument-hint: "[Target: <what>] [--type <type>] [--dry-run] [--auto] [--force] [--rollback] [--checklist-only] [--monitor N]"
+description: "Prepare and verify a release through 8 phases, then ship only after explicit user approval"
+argument-hint: "[Target: <what>] [--type <type>] [--dry-run] [--force] [--rollback] [--checklist-only] [--monitor N]"
 ---
 
-EXECUTE IMMEDIATELY.
+Begin read-only inspection and preparation immediately. Pause for explicit user approval before any push, publish, deploy, PR mutation, unpublish, or rollback action.
 
 ## Parse Arguments
 
@@ -12,7 +12,6 @@ Extract from $ARGUMENTS:
 - `Target:` or `--target` — what to ship (path, PR, artifact, deployment)
 - `--type <type>` — override auto-detection: code-pr, code-release, deployment, content, docs, package, config
 - `--dry-run` — validate everything but don't ship
-- `--auto` — auto-approve if no errors found
 - `--force` — skip non-critical items (blockers still enforced)
 - `--rollback` — undo last ship action
 - `--monitor N` — post-ship monitoring for N minutes
@@ -83,7 +82,7 @@ If `--dry-run` or always before actual ship:
 
 ## Phase 6: Ship
 
-**REQUIRES EXPLICIT USER APPROVAL** (unless --auto with zero errors).
+**REQUIRES EXPLICIT USER APPROVAL.** A clean checklist, a successful dry-run, or chained execution never substitutes for approval.
 
 Execute the ship action:
 - Code PR: create/update PR, request reviewers
@@ -111,6 +110,7 @@ Write:
 
 If `--rollback`:
 - Identify last ship action from most recent ship log
+- Show the exact rollback target and expected impact, then obtain explicit user approval
 - Reverse it (revert PR, unpublish, rollback deployment)
 - Verify rollback succeeded
 

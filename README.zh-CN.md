@@ -24,12 +24,16 @@
 npx skills add full-stack-skills/agent-skills
 ```
 
-## 🎯 技能列表 (11)
+## 🎯 技能列表 (15)
 
 | 技能 | 描述 |
 |------|------|
 | `agent-browser` | AI 代理的浏览器自动化 CLI。安装、命令、选择器、会话、CDP/流式传输。 |
+| `autoresearch` | 面向可验证目标的有界自主迭代，支持调试、修复、安全审计、回归检查等子流程。 |
+| `browser-trace` | 旁路采集浏览器 CDP 事件、截图和 DOM，用于调试和审计浏览器自动化。 |
+| `caveman` | 在保留技术信息的前提下压缩回答，支持多种简洁程度。 |
 | `code-generator` | 代码生成指南 — 基于模板的生成、脚手架和自动化代码创建。 |
+| `codebase-design` | 使用深模块、清晰边界和可测试接口设计或改进代码库。 |
 | `codegraph` | 基于 tree-sitter 知识图谱的语义代码智能工具，为 AI 编码代理提供代码结构查询、符号追踪、变更影响分析、调用链查找能力。20+语言，100%本地。 |
 | `mcp-builder` | 创建高质量 MCP（Model Context Protocol）服务器的指南。Python FastMCP / TypeScript SDK。 |
 | `skill-awesome` | 设计 Agent Skills 的权威知识库，包含精炼的 Agent Skills 规范。 |
@@ -64,4 +68,4 @@ cp -r agent-skills/skills/* .claude/skills/
 
 ## 📄 License
 
-Apache 2.0
+仓库自有内容采用 Apache 2.0，详见 [LICENSE](LICENSE)。内含的第三方组件保留各自的原始许可证，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 以及各技能目录中的许可证文件。

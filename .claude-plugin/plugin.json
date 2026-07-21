@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Agent Skills provides the complete toolchain for working with Agent Skills",
   "author": {
-    "name": "PartMeAI",
+    "name": "PartMe.AI",
     "email": "partmeai@gmail.com"
   },
   "homepage": "https://github.com/full-stack-skills/agent-skills",
@@ -11,7 +11,11 @@
   "source": "./",
   "skills": [
     "./skills/agent-browser",
+    "./skills/autoresearch",
+    "./skills/browser-trace",
+    "./skills/caveman",
     "./skills/code-generator",
+    "./skills/codebase-design",
     "./skills/codegraph",
     "./skills/mcp-builder",
     "./skills/skill-awesome",
